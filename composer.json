@@ -1,0 +1,32 @@
+{
+  "name": "mohsin-plugin/craft-weather",
+  "description": "A plugin to fetch weather report in Craft 3",
+  "version": "1.0",
+  "type": "craft-plugin",
+  "license": "MIT",
+  "require": {
+    "craftcms/cms": "^3.0.0"
+  },
+  "require-dev": {
+      "mockery/mockery": "0.9.*",
+      "phpunit/phpunit": "~5.0",
+      "phpunit/php-token-stream": "<2"
+  },
+  "autoload": {
+    "psr-4": {
+      "mohsin\\weather\\": "src/"
+    }
+  },
+  "extra": {
+    "name": "Weather Plugin",
+    "handle": "weather",
+    "hasCpSettings": false,
+    "hasCpSection": false,
+    "changelogUrl": "https://github.com/mohsinintazar/craft-weather/blob/master/CHANGELOG.md",
+    "documentationUrl": "https://github.com/mohsinintazar/craft-weather",
+    "downloadUrl": "",
+    "developer": "Mohsin Khokhar",
+    "developerUrl": "https://mohsinintazar.com",
+    "class": "mohsin\\weather\\Weather"
+  }
+}
