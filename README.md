@@ -32,7 +32,6 @@ In your project's root directory, create or edit your .env file.
 
 Add the following lines to your .env file, replacing 'your_api_key' with your actual API key and 'your_city' with the location of the city you want to fetch:
 ```
-# Craft Weather Plugin Settings
 CRAFT_WEATHER_KEY="your_api_key"
 CRAFT_WEATHER_LOCATION="your_city"
 ```
